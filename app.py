@@ -29,7 +29,7 @@ CAR_B64 = base64.b64encode(CAR_SVG.encode()).decode()
 
 # CSS: this only changes how the page looks, it has no effect on the logic
 STYLE = """<style>
-.block-container{padding-top:1.5rem;max-width:860px}
+.block-container{padding-top:4.5rem;max-width:860px}
 .hero{background:linear-gradient(135deg,#0f172a,#1e3a8a);padding:1.6rem 2rem;border-radius:16px;margin-bottom:.5rem}
 .hero h1{color:#fff!important;margin:0;font-size:2.2rem}
 .hero p{color:#cbd5e1;margin:.3rem 0 0}
@@ -38,7 +38,7 @@ STYLE = """<style>
 .card.q{font-size:1.25rem;font-weight:600;padding:1.6rem 1.4rem}
 .muted{color:#64748b;font-size:.85rem}
 .badge{color:#fff;padding:2px 10px;border-radius:999px;font-size:.78rem;font-weight:600}
-.stepper{display:flex;margin:0 0 1.2rem 0}
+.stepper{display:flex;margin:.5rem 0 1.2rem 0;padding-top:4px}
 .step{flex:1;text-align:center;font-size:.72rem;color:#94a3b8}
 .step span{display:block;width:28px;height:28px;line-height:28px;border-radius:50%;margin:0 auto 4px;background:#e2e8f0;color:#475569;font-weight:700}
 .step.cur{color:#1e3a8a;font-weight:700}
